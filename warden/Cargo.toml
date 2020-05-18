@@ -5,3 +5,4 @@ authors = ["J. Ryan Stinnett <jryans@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+plist = "1.0.0"
