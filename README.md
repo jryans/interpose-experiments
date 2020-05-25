@@ -13,11 +13,14 @@ convoluted layers out of all of the major desktop platforms at the moment.
   * Can be relaxed through further entitlements
   * Apps get a special app container directory to work with that only they can
     access
-* Deprecated sandboxing via profiles such as those in
+* Sandboxing via profiles (sometimes called "Seatbelt") such as those in
   `/System/Library/Sandbox/Profiles/*`
   * While this is marked as deprecated, it's far more powerful than the newer
     App Sandbox, and remains heavily used by macOS system components, browsers,
     etc.
+  * The newer App Sandbox makes use of this older system internally by applying
+    the profile `/System/Library/Sandbox/Profiles/application.sb` during app
+    startup
 * [Hardened Runtime][hr]
   * Blocks code injection, memory access, debugger access when signing option
     (`-o runtime`) set
