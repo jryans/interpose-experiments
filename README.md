@@ -3,6 +3,8 @@ interposition and code injection.
 
 ## macOS
 
+**Target version**: macOS 10.15
+
 macOS is the main focus of this work, as it seems to apply the most complex and
 convoluted layers out of all of the major desktop platforms at the moment.
 
